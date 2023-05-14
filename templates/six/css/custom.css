@@ -1,0 +1,74 @@
+/* *****************************************************
+
+    ** Custom Stylesheet **
+
+    Any custom styling you want to apply should be
+    defined here.
+
+***************************************************** */
+@font-face { 
+    font-family: 'dana VF';
+    src: url('dana2webGX.woff') format('woff-variations'),
+    /* will be the standard and works in Safari now */
+    url('dana2webGX.woff') format('woff');
+    /* for the other supporting browsers */
+    font-display: fallback;
+}
+
+body {
+	font-family: dana VF !important;
+}
+
+input,
+button,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+a,
+ul,
+li,rs-layer{
+	font-family: dana VF !important;
+}
+
+h1 {
+	font-variation-settings: "DOTQ" 1, "wght" 750, "FANU" 1, "slnt" 0;
+}
+
+h2 {
+	font-variation-settings: "DOTQ" 1, "wght" 600, "FANU" 1, "slnt" 0;
+}
+
+h3,
+h4,
+h5,
+h6 ,#order-standard_cart .products .product div.product-pricing span.price{
+	font-variation-settings: "DOTQ" 1, "wght" 450, "FANU" 1, "slnt" 0;
+}
+
+p {
+	font-variation-settings: "DOTQ" 1, "wght" 300, "FANU" 1, "slnt" 0;
+}
+
+a,
+ul,
+li {
+	font-variation-settings: "DOTQ" 1, "FANU" 1, "slnt" 0;
+}
+section#header .logo-text {
+   
+    font-size: 2.1em;
+ font-variation-settings: "DOTQ" 1, "wght" 600, "FANU" 1, "slnt" 0;
+}
+#order-standard_cart .prepend-icon .field {
+padding-left: 0;
+    padding-right: 36px;
+}
+table.dataTable thead .sorting:after, table.dataTable thead .sorting_asc:after, table.dataTable thead .sorting_desc:after {
+
+    right: unset;
+
+}
